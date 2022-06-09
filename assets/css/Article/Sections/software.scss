@@ -1,0 +1,101 @@
+.software{
+    display: flex;
+    align-items: center;
+    grid-gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100% !important;
+    img{
+        cursor: pointer;
+    }
+    .text-container{
+        width: 44%;
+        .text-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 65px;
+                line-height: 78px;
+                text-transform: capitalize;
+                color: #1B2534;
+                b{
+                    color: #29A0F5;
+                }
+            }
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+                text-transform: capitalize;
+                color: #1B2534;
+            }
+        }
+        .items{
+            .item{
+                display: flex;
+                grid-gap: 26px;
+                flex-direction: column;
+                .item-inner{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    grid-gap: 25px;
+                }
+            }
+        }
+    }
+    .software-background{
+        width: auto;
+        cursor: pointer;
+    }
+}
+/** Media Rules **/
+@media (max-width:1293px){
+    .software{
+        .text-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+@media (max-width:518px){
+    .software{
+        .text-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .text-item{
+                h1{
+                    font-size: 35px;
+                    line-height: 12.078125vw;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 5.078125vw;
+                }
+            }
+            .items{
+                .item{
+                    .item-inner{
+                        display: flex;
+                        flex-direction: column;
+                        img{
+                            height: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- W3 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <!-- Styles -->
+        <!-- Document -->
+            <link rel="stylesheet" href="assets/css/document.css"/>
+        <!-- Header & Nav -->
+            <link rel="stylesheet" href="assets/css/Header/header.css"/>
+        <!-- Article & Sections -->
+            <link rel="stylesheet" href="assets/css/Article/article.css"/>
+            <link rel="stylesheet" href="assets/css/Article/Sections/software.css"/>
+            <link rel="stylesheet" href="assets/css/Article/Sections/moreeasily.css"/>
+</head>
+<body>
+    <!-- Header -->
+    <header class="col-12 container-fluid">
+        <!-- Navbar -->
+        <nav class="container col-11">
+            <div class="logo-container">
+                <img src="./assets/media/Header/logo.png" alt="Logo" title="Spaatz">
+            </div>
+            <div class="menu-container">
+                <ul class="nav-ul">
+                    <li class="active"><a href="#">Web App</a></li>
+                    <li><a href="#">Mobile App</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Utility Pages</a></li>
+                </ul>
+                <button class="nav-button">Request A Demo</button>
+            </div>
+            <div class="burger-container">
+                <img src="./assets/media/Header/burger.png" alt="Menu Icon" class="burger" onclick="menu()">
+            </div>
+        </nav>
+        <!-- End Of Navbar -->
+        <div class="inner" id="header-inner">
+            <span class="inner-text">
+                <h1>All your business analytics in <br/>a Single <b>Dashboard</b></h1>
+                <button class="inner-button">
+                    Get Started
+                    <img src="./assets/media/Header/vector.png" alt="Vector">
+                </button>
+            </span>
+            <div class="inner-background">
+                <img src="./assets/media/Header/innerbackground.png" alt="Background Image" title="CRM" class="img-fluid">
+            </div>
+        </div>
+    </header>
+    <!-- Article -->
+    <article class="col-xxl-12">
+        <!-- Software Section -->
+        <section class="software container col-12">
+            <div class="text-container">
+                <div class="text-item">
+                    <h1>
+                        Perfect approach towards <b>software</b>
+                    </h1>
+                    <p>
+                        It’s a social collaboration mail software platform that employees really love to use, with rich personalized interface helps to promote your product and connect with good buyer.
+                    </p>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <div class="item-inner">
+                            <img src="./assets/media/Article/Software/pink.png" alt="Increase Workflow Image"/>
+                            <span class="item-inner-text">
+                                <h3>Increase Workflow</h3>
+                                <p>Abilities taken within a multiple platforms</p>
+                            </span>
+                        </div>
+                        <div class="item-inner">
+                            <img src="./assets/media/Article/Software/green.png" alt="Increase Workflow Image"/>
+                            <span class="item-inner-text">
+                                <h3>Secured Structure</h3>
+                                <p>Purpose oriented structures protect thedata</p>                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="software-background">
+                <img src="./assets/media/Article/Software/background.png" alt="Software Image" class="img-fluid"/>
+            </div>
+        </section>
+        <section class="more-easily">
+            <div class="more-easily-child">
+                <div class="items-block-top">
+                    <div class="item">
+                        <span>
+                            <h1>
+                                Capture & convert <br/>excellent leads<br/><b>more easily.</b>
+                            </h1>
+                            <p>
+                                You can control the inbox like Turn Off Notifications, Choose When You Check In, Don’t Default to Email, Compose mail and reply the mail you want.
+                            </p>
+                        </span>
+                        <img src="./assets/media/Article/MoreEasily/morebackgroundone.png" alt="More background" class="img-fluid"/>
+                    </div>
+                </div>
+                <div class="items-container-center">
+                    <div class="items important">
+                        <h1>Important <br/>Tools</h1>
+                        <span>
+                            <img src="./assets/media/Article/MoreEasily/photoshop.png" alt="Photoshop"/>
+                            <img src="./assets/media/Article/MoreEasily/figma.png" alt="Figma"/>
+                            <img src="./assets/media/Article/MoreEasily/experiencedesign.png" alt="Experience Design"/>
+                        </span>
+                    </div>
+                    <div class="items support">
+                        <h1>Support for <br/> Responsive Design</h1>
+                        <img src="./assets/media/Article/MoreEasily/itemdesign.png" alt="Design" class="img-fluid"/>
+                    </div>
+                    <div class="items monitoring">
+                        <img src="./assets/media/Article/MoreEasily/monitoring.png" alt="monitoring"/>
+                    </div>
+                </div>
+                <div class="items-container-bottom">
+                    <div class="monitoring-frame">
+                        <img src="./assets/media/Article/MoreEasily/monitoringframe.png" alt="Monitoring Frame"/>
+                        <span class="explore-span">
+                            <h1 class="explore-title">
+                                Watch<br/>
+                                And Learn
+                            </h1>
+                            <button class="explore-button">
+                                Explore App
+                                <img src="./assets/media/Article/MoreEasily/vector.png" alt="Vector"/>
+                            </button>
+                        </span>
+                    </div>
+                    <div class="media-container">
+                        <h1>Image, Video, Audio<br/>Gif, support</h1>
+                        <span class="media-block">
+                            <img src="./assets/media/Article/MoreEasily/gallery.png" alt="Gallery icon"/>
+                            <img src="./assets/media/Article/MoreEasily/music.png" alt="Music Icon"/>
+                            <img src="./assets/media/Article/MoreEasily/video.png" alt="Video Icon"/>
+                            <img src="./assets/media/Article/MoreEasily/gif.png" alt="Gif Icon"/>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Software Section -->
+    </article>
+    <script src="./assets/js/header.js"></script>
+    <!-- End Of Header -->
+</body>
+</html>
